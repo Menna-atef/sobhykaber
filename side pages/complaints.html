@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amiri"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/complaints.css" />
+
+    <title>SOBHY KABER RESTAURANT</title>
+  </head>
+  <body>
+    <!-- Nav-bar  -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a
+          class="navbar-brand d-md-none d-xs-block py-3"
+          href="main-page.html"
+          target="__self"
+        >
+          <img
+            src="images/logo.jpg"
+            alt="ٌRestaurant Logo"
+            class="logo"
+            height="40"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link mx-2"
+                aria-current="page"
+                href="main-page.html"
+                target="_self"
+                >الصفــحةالرئيــسة</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="location.html">الموقع</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="menu.html" target="_self"
+                >المنيو</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2 text-uppercase" href="#"
+                ><i class="fa-solid fa-cart-shopping me-1"></i> Cart</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="about.html" target="_self"
+                >عنناً</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="our clients.html">صورنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="complaints.html">شكاوي</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link mx-2 btn rounded-0 btn-danger"
+                href="menu.html"
+                target="_self"
+                >اطلب اون لاين</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="text-center p-3 d-none d-md-block">
+      <a href="main-page.html" target="_self">
+        <img
+          src="images/logo.jpg"
+          alt="ٌRestaurant Logo"
+          class="logo"
+          height="250px"
+        />
+      </a>
+    </div>
+
+    <main>
+      <div>
+        <div class="logo-contact">
+          <img src="images/contactUs.svg" />
+        </div>
+        <div class="about-section">
+          <h1>الشكاوي والاقتراحات</h1>
+          <p>
+            لا تتردد في ( تقديم شكواك / اقتراحك ) نضمن لك متابعتها مع الجهة
+            المعنية واجراء اللازم عليها.
+          </p>
+          <p>نعمل لخدمتكم شاركونا آراءكم</p>
+        </div>
+      </div>
+
+      <div class="complaint-discription">
+        <p>
+          <a
+            class="btn btn-outline-secondary btn-lg button-complaint"
+            data-bs-toggle="collapse"
+            href="#collapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Add a Complaint or Suggestion or Praise تقديم شكوي /اقتراح/ثناء
+          </a>
+          <a
+            class="btn btn-outline-secondary btn-lg button-inquire"
+            data-bs-toggle="collapse"
+            href="#collapseExample2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Inquire about a Complaint or Suggestion or Praise الاستعلام عن
+            شكوي/اقتراح/ثناء
+          </a>
+        </p>
+      </div>
+
+      <div
+        id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_pnlAddComplaint"
+      >
+        <div style="direction: rtl">
+          <div class="alert alert-primary" role="alert">
+            لا تتردد في ( تقديم شكواك / اقتراحك ) نضمن لك متابعتها مع الجهة
+            المعنية واجراء اللازم عليها.
+            <br />
+            نعمل لخدمتكم شاركونا آراءكم
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >المشتكي / Complainant</label
+                >
+                <select
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$ddlComplainants"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_ddlComplainants"
+                  class="form-select"
+                >
+                  <option value="1">موظف - Employee</option>
+                  <option value="2">ويتر- waiter</option>
+                  <option value="3">مدير صالة- Lounge manager</option>
+                </select>
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_rfv_ddlComplainants"
+                  style="color: Red; visibility: hidden"
+                  >الرجاء اختيار صنف المشتكي</span
+                >
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >إسم المشتكي / Complainant Name</label
+                >
+                <input
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$txtComplainantName"
+                  type="text"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_txtComplainantName"
+                  class="form-control"
+                />
+                <span class="form-text">(اختياري)/(Optional)</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >رقم هاتف المشتكي / Complainant Phone</label
+                >
+                <input
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$txtComplainantPhone"
+                  type="text"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_txtComplainantPhone"
+                  class="form-control"
+                />
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_req_txtComplainantPhone"
+                  style="color: Red; visibility: hidden"
+                  >رقم الهاتف خاطئ. أرقام فقط</span
+                >
+                <span class="form-text">(اختياري)/(Optional)</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >البريد الإلكتروني للمشتكي / Complainant Email</label
+                >
+                <input
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$txtComplainantEmail"
+                  type="text"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_txtComplainantEmail"
+                  class="form-control"
+                />
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_reg_txtComplainantEmail"
+                  style="color: Red; visibility: hidden"
+                  >*</span
+                >
+                <span class="form-text">(اختياري)/(Optional)</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >نوع الحالة / Complaint Type</label
+                >
+                <select
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$ddlComplaintType"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_ddlComplaintType"
+                  class="form-select"
+                >
+                  <option selected="selected" value="1">شكوى</option>
+                  <option value="2">اقتراح</option>
+                  <option value="3">ثناء</option>
+                  <option value="4">تبليغ</option>
+                </select>
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_req_ddlComplaintType"
+                  style="color: Red; visibility: hidden"
+                  >الرجاء اختيار نوع الحالة</span
+                >
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >موضوع الشكوى / الاقتراح / Complaint/Suggestion</label
+                >
+                <textarea
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$txtComplaintBody"
+                  rows="8"
+                  cols="70"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_txtComplaintBody"
+                  class="form-control"
+                ></textarea>
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_rfv_txtComplaintBody"
+                  style="color: Red; visibility: hidden"
+                  >الرجاء ادخال موضوع الشكوى</span
+                >
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >صفة الاستعجال / Priority</label
+                >
+                <select
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$ddlCompPriority"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_ddlCompPriority"
+                  class="form-select"
+                >
+                  <option selected="selected" value="1">عادي - Normal</option>
+                  <option value="2">عاجل - Urgent</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >تاريخ حدوث المشكلة / Incident Date</label
+                >
+              </div>
+
+              <div class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control" />
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-th"></span>
+                </div>
+                <img
+                  src="images/calendar.gif"
+                  width="40px"
+                  height="40px"
+                  alt="Calender"
+                  class="DatePickerImg datepick-trigger"
+                />
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_rfv_bdpIncidentDate"
+                  style="color: Red; visibility: hidden"
+                  >الرجاء اختيار تاريخ حدوث المشكلة</span
+                >
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >الحل المناسب / Suggested Solution</label
+                >
+                <textarea
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$txtSuggestedSolution"
+                  rows="8"
+                  cols="70"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_txtSuggestedSolution"
+                  class="form-control"
+                ></textarea>
+                <span class="form-text">(اختياري)/(Optional)</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div class="mb-3 col-auto">
+                <label for="exampleInputEmail1" class="form-label"
+                  >أحرف الصورة / Picture's Characters</label
+                >
+                <input
+                  name="ctl00$ctl52$g_d6a6888c_373c_406e_a964_5e37fe867e15$ctl00$txtCaptcha"
+                  type="text"
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_txtCaptcha"
+                  class="TXT"
+                />
+                <span
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_req_Captcha"
+                  style="color: Red; visibility: hidden"
+                  >الرجاء إدخال أحرف الصورة</span
+                >
+                <img
+                  id="ctl00_ctl52_g_d6a6888c_373c_406e_a964_5e37fe867e15_ctl00_captcha_imgCaptcha"
+                  src="https://services.just.edu.jo/JUSTHandlers/JUSTCaptcha.ashx?c=Wx%2f2aBZ3ao5BGxtdtwUUHw%3d%3d"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="mb-3 col-auto">
+              <input
+                class="button-sumbit"
+                type="submit"
+                value="تقديم الشكوي/ Submit your complaint  "
+                onclick="Messageissend()"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      function Messageissend() {
+        alert("Your Request is send Successfuly");
+      }
+    </script>
+  </body>
+</html>

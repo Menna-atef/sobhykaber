@@ -1,0 +1,1228 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 60%;
+}
+
+.nav-item a:hover {
+  color: chocolate;
+}
+
+.fa-cart-shopping {
+  color: #aa0000;
+}
+
+main {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.sec-video {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.video {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.video video {
+  width: 95%;
+}
+
+.sec-main-dishes {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div-main-dishes {
+  display: block;
+  box-sizing: content-box;
+  width: 80%;
+  height: auto;
+  align-content: center;
+  position: relative;
+  margin: 50px auto;
+}
+
+.main-flex {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.main-left {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+.main-img-left img {
+  width: 100%;
+  position: relative;
+  animation: main-img-left 1s 1;
+  animation-direction: alternate;
+}
+
+@keyframes main-img-left {
+  0% {
+    display: none;
+    left: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    left: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    left: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    left: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    left: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    left: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    left: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    left: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    left: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    left: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    left: 0%;
+    rotate: 0deg;
+  }
+}
+
+.main-right {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+.main-img-right img {
+  width: 100%;
+  position: relative;
+  animation: main-img-right 1s 1;
+  animation-direction: alternate;
+}
+
+@keyframes main-img-right {
+  0% {
+    display: none;
+    right: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    right: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    right: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    right: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    right: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    right: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    right: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    right: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    right: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    right: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    right: 0%;
+    rotate: 0deg;
+  }
+}
+
+.main-discription-right {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amiri", sans-serif;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  position: relative;
+  animation: main-disc-right 1.5s 1;
+  padding: 0 40px;
+}
+
+.main-discription-right span {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.main-discription-right p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@keyframes main-disc-right {
+  0% {
+    display: block;
+    top: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    top: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    top: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    top: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    top: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    top: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    top: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    top: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    top: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    top: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    top: 0%;
+    rotate: 0deg;
+  }
+}
+
+.main-discription-left {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amiri", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  animation: main-disc-left 1.5s 1;
+  padding: 0 40px;
+}
+
+.main-discription-left span {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.main-discription-left p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+@keyframes main-disc-left {
+  0% {
+    display: block;
+    bottom: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    bottom: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    bottom: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    bottom: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    bottom: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    bottom: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    bottom: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    bottom: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    bottom: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    bottom: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    bottom: 0%;
+    rotate: 0deg;
+  }
+}
+
+.sec-desserts {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div-desserts {
+  display: block;
+  box-sizing: content-box;
+  width: 80%;
+  height: auto;
+  align-content: center;
+  position: relative;
+  margin: 50px auto;
+}
+
+.desserts-flex {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.desserts-left {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: auto;
+  margin: 10px;
+  margin-bottom: 120px;
+}
+
+.desserts-img-left {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+}
+
+.desserts-img-left img {
+  width: 100%;
+  position: relative;
+  animation: desserts-img-left 1s 1;
+  animation-direction: alternate;
+}
+
+@keyframes desserts-img-left {
+  0% {
+    display: none;
+    left: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    left: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    left: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    left: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    left: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    left: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    left: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    left: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    left: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    left: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    left: 0%;
+    rotate: 0deg;
+  }
+}
+
+.desserts-right {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: auto;
+  margin: 10px;
+  margin-top: 120px;
+}
+
+.desserts-img-right {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.desserts-img-right img {
+  width: 100%;
+  position: relative;
+  animation: desserts-img-right 1s 1;
+  animation-direction: alternate;
+}
+
+@keyframes desserts-img-right {
+  0% {
+    display: none;
+    right: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    right: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    right: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    right: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    right: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    right: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    right: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    right: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    right: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    right: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    right: 0%;
+    rotate: 0deg;
+  }
+}
+
+.desserts-discription-right {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amiri", sans-serif;
+  position: relative;
+  animation: desserts-disc-right 1.5s 1;
+  padding: 0 40px;
+}
+
+.desserts-discription-right span {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.desserts-discription-right p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@keyframes desserts-disc-right {
+  0% {
+    display: block;
+    top: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    top: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    top: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    top: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    top: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    top: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    top: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    top: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    top: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    top: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    top: 0%;
+    rotate: 0deg;
+  }
+}
+
+.desserts-discription-left {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amiri", sans-serif;
+  position: relative;
+  animation: desserts-disc-left 1.5s 1;
+  padding: 0 40px;
+}
+
+.desserts-discription-left span {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.desserts-discription-left p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@keyframes desserts-disc-left {
+  0% {
+    display: block;
+    bottom: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    bottom: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    bottom: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    bottom: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    bottom: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    bottom: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    bottom: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    bottom: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    bottom: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    bottom: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    bottom: 0%;
+    rotate: 0deg;
+  }
+}
+
+.fa-heart {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+  color: #aa0000;
+}
+
+.fa-face-smile-wink {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.sec-drinks {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.div-drinks {
+  display: block;
+  box-sizing: content-box;
+  width: 80%;
+  height: auto;
+  align-content: center;
+  position: relative;
+  margin: 50px auto;
+}
+
+.drinks-flex {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.drinks-left {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+.drinks-img-left img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  animation: drinks-img-left 1s 1;
+  animation-direction: alternate;
+}
+
+@keyframes drinks-img-left {
+  0% {
+    display: none;
+    left: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    left: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    left: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    left: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    left: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    left: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    left: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    left: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    left: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    left: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    left: 0%;
+    rotate: 0deg;
+  }
+}
+
+.drinks-right {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+.drinks-img-right img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  animation: drinks-img-right 1s 1;
+  animation-direction: alternate;
+}
+
+@keyframes drinks-img-right {
+  0% {
+    display: none;
+    right: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    right: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    right: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    right: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    right: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    right: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    right: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    right: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    right: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    right: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    right: 0%;
+    rotate: 0deg;
+  }
+}
+
+.drinks-discription-right {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amiri", sans-serif;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  position: relative;
+  animation: drinks-disc-right 1.5s 1;
+  padding: 0 40px;
+}
+
+.drinks-discription-right span {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.drinks-discription-right p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@keyframes drinks-disc-right {
+  0% {
+    display: block;
+    top: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    top: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    top: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    top: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    top: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    top: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    top: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    top: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    top: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    top: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    top: 0%;
+    rotate: 0deg;
+  }
+}
+
+.drinks-discription-left {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Amiri", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  animation: drinks-disc-left 1.5s 1;
+  padding: 0 40px;
+}
+
+.drinks-discription-left span {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.drinks-discription-left p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@keyframes drinks-disc-left {
+  0% {
+    display: block;
+    bottom: -100%;
+    rotate: 10deg;
+  }
+  10% {
+    display: block;
+    bottom: -90%;
+    rotate: 9deg;
+  }
+  20% {
+    display: block;
+    bottom: -80%;
+    rotate: 8deg;
+  }
+  30% {
+    display: block;
+    bottom: -70%;
+    rotate: 7deg;
+  }
+  40% {
+    display: block;
+    bottom: -60%;
+    rotate: 6deg;
+  }
+  50% {
+    display: block;
+    bottom: -50%;
+    rotate: 5deg;
+  }
+  60% {
+    display: block;
+    bottom: -40%;
+    rotate: 4deg;
+  }
+  70% {
+    display: block;
+    bottom: -30%;
+    rotate: 3deg;
+  }
+  80% {
+    display: block;
+    bottom: -20%;
+    rotate: 2deg;
+  }
+  90% {
+    display: block;
+    bottom: -10%;
+    rotate: 1deg;
+  }
+  100% {
+    display: block;
+    bottom: 0%;
+    rotate: 0deg;
+  }
+}
+
+.slider {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.slider-img {
+  width: 1326px;
+  height: 500px;
+}
+
+.information {
+  margin-top: 150px;
+  background-color: #333;
+  color: #ffffff;
+  direction: ltr;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.first-info {
+  color: #e0835f;
+}
+
+.first-span {
+  color: #fff;
+  font-size: 22px;
+}
+
+.email-paragraph,
+.phone-paragraph {
+  color: #e0835f;
+}
+
+.email-paragraph:hover,
+.phone-paragraph:hover {
+  color: #fff;
+}
+
+.fb-ic,
+.tw-ic,
+.ins-ic {
+  color: #e0835f;
+  text-decoration: none;
+}
+
+.fb-ic:hover,
+.tw-ic:hover,
+.ins-ic:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copyright {
+  direction: ltr;
+}
+
+.copyright a {
+  color: #fff;
+}
+
+@media screen and (min-width: 777px) {
+  .nav-link {
+    padding: 18px 0;
+    min-width: 120px;
+  }
+  .navbar {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+}
+/*medium screen*/
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*tablet screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*mobil screen*/
+@media (min-width: 320px) and (max-width: 767px) {
+}

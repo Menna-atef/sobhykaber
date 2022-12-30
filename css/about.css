@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  direction: rtl;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 60%;
+}
+
+.nav-item a:hover {
+  color: chocolate;
+}
+
+.fa-cart-shopping {
+  color: #aa0000;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.logo-team {
+  width: 100%;
+  height: 150px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  margin-top: 350px;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+@media screen and (min-width: 777px) {
+  .nav-link {
+    padding: 18px 0;
+    min-width: 120px;
+  }
+  .navbar {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+}
+/*medium screen*/
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*tablet screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*mobil screen*/
+@media (min-width: 320px) and (max-width: 767px) {
+}

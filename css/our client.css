@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.nav-bar {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-bar-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 60%;
+}
+
+.nav-item a:hover {
+  color: chocolate;
+}
+
+.fa-cart-shopping {
+  color: #aa0000;
+}
+
+.client-sider p,
+h5 {
+  color: #000;
+}
+
+.client-sider p {
+  font-weight: bolder;
+}
+
+.slider p,
+h5 {
+  font-weight: bolder;
+  color: rgb(0, 17, 253);
+}
+
+.slider {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-img {
+  width: 1050px;
+  height: 500px;
+}
+
+@media screen and (min-width: 777px) {
+  .nav-link {
+    padding: 18px 0;
+    min-width: 120px;
+  }
+  .navbar {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+}
+
+/*medium screen*/
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*tablet screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*mobil screen*/
+@media (min-width: 320px) and (max-width: 767px) {
+}
